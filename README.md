@@ -4,8 +4,8 @@
 
 **API地址：** https://weather-server-wenpei.herokuapp.com/cityWeather?countryCode=AU&cityName=Sydney&weatherType=current
 
-知识点： 
-[x] 根据要求完成React，组件划分 与 UI设计
-[x] Fetch/Axios call API，Promise处理结果以及ErrorHandling
-[x] Props与静态（functional）组件
-[x] Class组件，构造器，生命周期等
+  知识点： 
+  [x] `根据要求完成React，组件划分 与 UI设计`
+  [x] `Fetch/Axios call API，Promise处理结果以及ErrorHandling`
+  [x] `Props与静态（functional）组件`
+  [x] `Class组件，构造器，生命周期等`
