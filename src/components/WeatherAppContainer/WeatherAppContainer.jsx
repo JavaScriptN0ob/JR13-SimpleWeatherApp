@@ -23,8 +23,10 @@ class WeatherAppContainer extends React.Component {
     })
       .then((response) => response.json())
       .then((result) => {
-        const { current: {weather, maxCelsius, windSpeed, humidity }, city: { name } } = result.response;
+        const { current: { weather, maxCelsius, windSpeed, humidity }, city: { name } } = result.response;
+
         this.setState({
+          //weather: weather -> weather,
           weather,
           temp: maxCelsius,
           windSpeed,
